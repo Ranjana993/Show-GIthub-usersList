@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(128, 179, 231);
+}
+
+.card {
+    background-color: white;
+    box-shadow: 1px 1px 5px 2px;
+    border-radius: 12px;
+    height: 250px;
+    width: 900px;
+    margin: auto;
+    margin-bottom: 12px;
+    padding: 12px;
+    font-weight: 500;
+}
+
+.card:hover {
+    box-shadow: 0.1px 0.1px 7px 1px;
+}
+
+h3,
+p {
+    margin-left: 3.3rem;
+}
+
+
+.button {
+    display: flex;
+    margin-right: 22px;
+    margin-left: 52px;
+    justify-content: space-between;
+}
+
+.button>a {
+    text-decoration: none;
+}
+
+.readmore {
+    font-size: 19px;
+
+}
+
+.remove {
+    color: red;
+}
+
+@media screen and (max-width:756px) {
+    .card {
+        height: 256px;
+        width: 364px;
+        margin: 6px;
+        padding: 8px;
+        font-weight: 300;
+    }
+
+    h3,
+    p {
+        margin-left: 1rem;
+    }
+}

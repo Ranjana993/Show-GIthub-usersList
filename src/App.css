@@ -1,0 +1,33 @@
+.App {
+    text-align: center;
+}
+
+.inputField>input {
+    height: 38px;
+    width: 220px;
+    text-indent: 12px;
+    margin-bottom: 23px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(150, 146, 146);
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination>button {
+    height: 45px;
+    width: 90px;
+    background-color: rgb(27, 36, 46);
+    color: white;
+    outline: none;
+    border: none;
+}
+.pagination > p{
+    margin-right: 23px;
+}
